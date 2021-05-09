@@ -3,7 +3,7 @@ employees = ["Aman", "Mohan", "Pawan", "Parthiv", "Vinay"]
 for emp in employees:
     print(emp)
 
-# 2.) for loop with range() and len() methods :-
+# 2.) for loop with range() and len() functions :-
 for emp in range(len(employees)):
     print(employees[emp])
 
