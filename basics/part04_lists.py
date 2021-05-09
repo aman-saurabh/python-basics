@@ -97,6 +97,13 @@ students.clear()
 print(students)
 
 # ***** Copy list *****
+# We can copy a list simply by assigning the list into a new variable.
+# For example - Suppose we have a list named 'original_list' and we want to copy this list.
+# We can copy this list into a new variable let's say 'copy_list' as follows :
+# copy_list = original_list
+# This rule is true not only for lists, but for almost everything like sets, tuples, dictionaries, strings etc.
+# Apart from above method, we can use following methods of list to copy a list :
+
 # 1.) copy() method :- Returns the copy of the list.
 animals_copy = animals.copy()
 print(animals_copy)
