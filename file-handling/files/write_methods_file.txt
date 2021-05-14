@@ -1,0 +1,7 @@
+This is single statement written using write() method.
+
+These are multiple statements.
+These statements are also written using write() methods.
+
+This is first statement of the list.This is second statement of the list.
+This is third statement of the list written in a new line.

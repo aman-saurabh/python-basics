@@ -1,0 +1,4 @@
+This is the first line of file delete-line-demo.
+This is its second line
+This is the line we want to remove.
+This is the last line of the file and it should not be removed.

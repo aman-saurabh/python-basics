@@ -1,0 +1,10 @@
+f = open("files/read_methods_file.txt", "rt")
+print("Read using read() method : ", f.read(7))
+print()
+print("First read using readline() method : ", f.readline(8))
+print("Second read using readline() method : ", f.readline(100))
+# Here even though we have passed 100 bytes, but it will read only till the end of current line.
+print("Third read using readline() method : ", f.readline(12))
+print()
+print("Read using readlines() method : ", f.readlines())
+f.close()

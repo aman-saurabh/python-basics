@@ -1,0 +1,1 @@
+This is pre-existing data in read-and-write-first file.This is second sentence of pre-existing data.

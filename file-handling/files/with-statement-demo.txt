@@ -1,0 +1,4 @@
+This is the first statement in the file with-statement-demo.
+It is second line of the file.
+This is third and last line of the pre-existing data of file with-statement-demo.
+This line is added using write() method.
