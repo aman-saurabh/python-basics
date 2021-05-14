@@ -70,6 +70,31 @@ my_tuple = (213, "Aman", True, 56.89)
 print(type(my_tuple))
 print(isinstance(my_tuple, tuple))
 
-
-
-
+# range() function in python :-
+"""
+range() function is not a datatype in python.
+Actually it is a generator function that is used to generate a series of numbers(i.e iterable) within a given range. 
+Depending on how many arguments user is passing to the function, 
+user can decide where that series of numbers will begin and end as well as 
+how big the difference will be between one number and the next.
+range() function takes mainly three arguments i.e complete syntax of range() function is as follows :
+range(start_point, end_point, incremental_factor)
+Here start_point, end_point and incremental_factor all are integral numbers 
+and among them only "end_point" is mandatory and other two are optional.
+so all valid syntax for range function is as follows:
+1.) range(end_point)
+2.) range(start_point, end_point)
+3.) range(start_point, end_point, incremental_factor)
+"""
+# Examples :-
+# range(end_point)
+x = range(10)
+print(x)
+# range(start_point, end_point)
+y = range(2, 10)
+print(y)
+# range(start_point, end_point, incremental_factor)
+z = range(2, 10, 3)
+print(z)
+# Note :- This range function is mainly used with loops.
+# So we will see more appropriate examples of range() function while learing loops through lists, sets etc.
