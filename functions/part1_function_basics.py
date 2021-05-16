@@ -12,8 +12,9 @@ def function_name(parameter1, parameter2, ...):
 So from here it is clear that a function can have any number of parameters(including 0) separated by comma.
 And a function can optionally return at most 1 value(i.e if it want it can omit returning value also).
 # Difference between argument and parameter :-
-Parameter is a variable defined in the function declaration whereas,
-Argument is the actual value of this variable that gets passed to function while calling it.
+The term parameter and argument, both are used for same thing - The information that are passed into a function.
+Actually parameters are variables that are listed inside the parenthesis in the function definition
+and arguments are data which are passed into the function inside the parenthesis while calling it
 i.e Parameters are placeholders for arguments in the method signature.
 """
 # Example :-

@@ -1,8 +1,39 @@
 """
-Sets are unordered collection of unique objects.
-Unordered means, in sets items doesn't have a fixed index and unique means duplicate objects are not allowed.
+Sets are unordered collection of unique and hashable objects.
+Unordered means, in sets items doesn't have a fixed index,
+and unique means duplicate objects are not allowed in sets,
 Sets are written with curly brackets.
+Hashable :-
+An object is said to be hashable if it has a hash value that remains the same during its lifetime.
+So every hashable object has a __hash__() method using which we can get the hash value of that object.
+For example :-
+my_name = "Aman"
+your_name = "Mohan"
+print(hash(my_name))        # O/P : 1182558986998896388 (Value will be different.Just see the format.Can be -ve as well)
+print(my_name.__hash__())   # We can use any of these two methods
+This hash value is used to compare objects. For this, it needs the __eq__() or __cmp__() methods.
+If hashable objects are equal when compared, it means they have the same hash value.
+print(my_name.__eq__(my_name))          # True
+print(my_name.__eq__(your_name))        # False
+
+Being hashable an object is usable as a dictionary key and a set member
+as these data structures use hash values internally.
+All immutable built-in objects in python are hashable.
+Mutable containers like lists and dictionaries are not hashable while immutable container tuple is hashable.
+So a set and dictionary-key can contain a tuple but not lists or dictionaries.
+Objects which are instances of user-defined classes are also hashable by default.
 """
+# Examples of hashable objects :-
+my_str = "Aman"
+print(hash(my_str))
+my_num = 57.5
+print(my_num.__hash__())
+my_tuple = (1, "Aman", True)
+print(hash(my_tuple))
+# my_list = [1, "Aman", True]
+# Above line will throw error.Since lists are mutable and hence not hashable
+
+# Now let's discuss about sets.
 # Set Example :-
 my_set = {"Aman", "Mohan", "Pawan", "Vinay", "Aman", "Pankaj", "Sapna", "Samir"}
 print(my_set)
