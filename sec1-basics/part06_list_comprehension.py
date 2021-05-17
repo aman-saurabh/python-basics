@@ -92,7 +92,7 @@ Ex :- Combination of dictionary comprehension and list comprehension
 To create a dictionary where key is range of 10 numbers like (1-10),(11-20) etc
 and value is list of prime number in that range.
 In this program we have declared and used a function.It is very basic kind of function which you can easily understand
-We will learn about functions in details later
+We will learn about sec3-functions in details later
 """
 
 

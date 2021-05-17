@@ -5,7 +5,7 @@ my_tuple = ("Aman", "Mohan", "Pawan", "Vinay", "Aman", "Pankaj", "Sapna", "Samir
 for item in my_tuple:
     print(item)
 
-# 2.) for loop with range() and len() functions :-
+# 2.) for loop with range() and len() sec3-functions :-
 for item in range(len(my_tuple)):
     print(my_tuple[item])
 

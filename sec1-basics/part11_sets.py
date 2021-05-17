@@ -50,7 +50,7 @@ It is because sets are unordered. And in sets an item does not have a fixed inde
 As we learned earlier, in sets, items does not have a fixed index, so we can't access set items using their index.
 But we can loop through set items using for loop.
 But please note that we can loop through set items using simple for loop only
-and not through for loop with range() and len() functions and nor through while loop.
+and not through for loop with range() and len() sec3-functions and nor through while loop.
 """
 # Ex :- Loop through set items(Only way to  access set items)
 for item in my_set:

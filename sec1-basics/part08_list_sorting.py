@@ -45,8 +45,8 @@ print(names)
 # We haven't actually called the method i.e by using parenthesis.
 # For 'key' parameter you must provide the reference of the function only and should not call that method.
 
-# Custom functions for sorting :-
-# We can use custom functions also for sorting as we used len() function in previous example
+# Custom sec3-functions for sorting :-
+# We can use custom sec3-functions also for sorting as we used len() function in previous example
 # Sort the list of numbers based on how close the number is to 50
 num_list = [53, 48, 65, 37, 23, 71]
 
